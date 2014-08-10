@@ -1,0 +1,13 @@
+LIBRARY linenoise.dll
+
+EXPORTS
+linenoiseSetCompletionCallback
+linenoiseAddCompletion
+linenoise
+linenoiseHistoryAdd
+linenoiseHistorySetMaxLen
+linenoiseHistorySave
+linenoiseHistoryLoad
+linenoiseClearScreen
+linenoiseHistoryGetLen
+linenoiseHistoryGet
